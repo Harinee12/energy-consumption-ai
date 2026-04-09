@@ -2,16 +2,16 @@
 
 ## About the Project
 
-This project focuses on predicting household electricity consumption using machine learning. The goal was not just to build a model, but to create a system that can analyze usage patterns and provide practical insights.
+This project focuses on predicting household electricity consumption using machine learning. The aim was to build a system that not only predicts usage but also helps understand patterns and provide simple, practical insights.
 
 ---
 
-## What this project does
+## Features
 
-* Predicts electricity consumption based on historical data
+* Predicts electricity consumption using historical data
 * Uses time-based features such as hour, day, and previous usage
 * Compares predicted values with actual values
-* Provides simple recommendations based on usage levels
+* Provides basic recommendations based on usage levels
 * Predicts the next hour’s electricity consumption
 * Displays trends to understand usage patterns over time
 
@@ -32,7 +32,7 @@ The project uses a household electricity consumption dataset containing date, ti
 
 ---
 
-## How to run
+## How to Run
 
 1. Upload the dataset (zip file)
 2. Run the Python file
@@ -52,6 +52,18 @@ The project uses a household electricity consumption dataset containing date, ti
 * Usage recommendations
 * Future consumption prediction
 * Daily trend visualization
+
+---
+
+## Sample Output
+
+### Prediction vs Actual
+
+![Prediction](prediction_output.png)
+
+### Trend Analysis
+
+![Trend](trend_analysis.png)
 
 ---
 
